@@ -1,0 +1,99 @@
+
+.process {
+    background: rgba(241, 251, 251, 0.5);
+    padding: var(--sectionPadding);
+}
+.process__flexone {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 70px;
+}
+.process__item {
+    width: 21%;
+    padding: 33px 15px;
+    text-align: center;
+    border-radius: 14px;
+    position: relative;
+}
+.process__itemAngle {
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    background: var(--orange);
+    display: inline-block;
+    height: 25px;
+    width: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -24px;
+    transform: translateX(-50%);
+}
+.process__itemImg {
+    width: 60px;
+}
+.process__itemTitle {
+    font-family: var(--poppins);
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: #FDFDFD;
+    font-weight: var(--medium);
+    margin-top: 20px;
+}
+.process__item--bgone {
+    background: var(--orange);
+}
+.process__item--bgtwo {
+    background: var(--primarylight);
+}
+.process__item--bgthree {
+    background: var(--greenlight);
+}
+.process__item--bgfour {
+    background: var(--orangelight);
+}
+.process__itemImg--opacity {
+    opacity: 0.3;
+}
+.process__itemTitle--color {
+    color: var(--textColor);
+}
+
+.process__flextwo {
+    display: flex;
+    justify-content: space-between;
+}
+.process__timeLeftbar {
+    width: 40%;
+    position: relative;
+}
+.process__timeImg {
+    position: absolute;
+    left: 95px;
+    top: 0;
+}
+.process__timeRightbar {
+    width: 50%;
+}
+.process__timeHeading {
+    font-family: var(--poppins);
+    font-size: 36px;
+    line-height: 140%;
+    text-transform: capitalize;
+    color: var(--textColor);
+    font-weight: var(--semiBold);
+}
+.repeatContent--margin {
+    margin: 25px 0;
+}
+.process__timeButton {
+    font-family: var(--nunito);
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: capitalize;
+    color: white;
+    font-weight: var(--semiBold);
+    background: var(--primary);
+    padding: 30px;
+    border: 1px solid var(--primary);
+    border-radius: 20px;
+    margin-top: 10px;
+}

@@ -1,0 +1,21 @@
+.feature {
+    padding: var(--sectionPadding);
+    background: #FDFDFD;
+}
+
+.feature__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.feature__leftbar {
+    width: 48%;
+}
+.feature__rightbar {
+    width: 48%;
+}
+.feature__img {
+    width: 100%;
+}
+.repeatContent--margin {
+    margin-top: 25px;
+}

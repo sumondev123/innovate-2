@@ -1,0 +1,137 @@
+/* ===================================
+        Navbar Css Start
+==================================== */
+.header {
+    background: url('../images/banner.png');
+    height: 1000px;
+    position: relative;
+    overflow: hidden;
+}
+.header__navber {
+    padding: 32px 0;
+}
+.header__navberflex {
+    display: flex;
+}
+.header__navberlogo {
+    width: 20%;
+}
+.header__navbermenu {
+    width: 60%;
+}
+.header__navbermenu-item {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    column-gap: 70px;
+    justify-content: center;
+    font-family: var(--opensans);
+    font-size: var(--paragraph);
+    font-weight: var(--semiBold);
+}
+.header__navberbutton {
+    width: 20%;
+}
+/* ===================================
+        Navbar Css End
+==================================== */
+
+
+/* ===================================
+        Header Css Start
+==================================== */
+.header__cloud1 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -150px;
+    z-index: 1;
+    animation: cloud1 1s linear infinite alternate;
+}
+.header__cloud2 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    bottom: -155px;
+    animation: cloud2 1s linear infinite alternate;
+}
+.header__cloud3 {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -135px;
+    animation: cloud1 1s linear infinite alternate;
+}
+
+.header__roket {
+    width: 260px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation: roket 1s linear forwards;
+}
+
+@keyframes cloud1 {
+    from {
+        left: -50px;
+    }
+    to {
+        left: 0;
+    }
+}
+@keyframes cloud2 {
+    from {
+        left: 0;
+    }
+    to {
+        left: -50px;
+    }
+}
+
+@keyframes roket {
+    from {
+        top: 320px;
+    }
+    to {
+        top: -650px;
+    }
+}
+
+.header__services {
+    text-align: center;
+}
+
+.header_service {
+    color: var(--white);
+    font-family: var(--nunito);
+    font-weight: var(--medium);
+    font-size: var(--paragraph);
+    text-transform: uppercase;
+    color: #c4c4c4;
+    border: 1px solid #c4c4c4;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.header__heading {
+    font-size: 64px;
+    text-align: center;
+    font-family: var(--poppins);
+    color: var(--white);
+    font-weight: var(--bold);
+    width: 967px;
+    margin: 20px auto;
+    line-height: 130%;
+}
+/* ===================================
+        Header Css End
+==================================== */
+
+
+
+
+
+
+
